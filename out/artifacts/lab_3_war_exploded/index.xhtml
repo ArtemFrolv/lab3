@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+<h:head>
+   <title>Лабораторная работа 3</title>
+   <h:outputStylesheet library="css" name="index.css"/>
+   <h:outputScript library="js" name="clock.js"/>
+</h:head>
+
+<h:body styleClass="body">
+   <div class="red"> Фролов Артём </div>
+   <div class="orange"> Никита Хакимов</div>
+   <div class="yellow"> Группа: P3201</div>
+   <div class="green"> Вариант: 201071 </div>
+   <div class="chasiki" id="chasiki"/>
+   <div class="purple">
+      <h:form>
+         <p:commandLink action="main?faces-redirect=true" styleClass="purple">
+            Вперед
+         </p:commandLink>
+      </h:form>
+   </div>
+</h:body>
+</html>

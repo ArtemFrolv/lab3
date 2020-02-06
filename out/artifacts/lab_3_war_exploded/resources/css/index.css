@@ -1,0 +1,71 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+}
+
+.red {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 16.6vh;
+    width: 100%;
+    color: purple;
+}
+
+.orange {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    height: 16.6vh;
+    width: 100%;
+    color: blue;
+}
+
+
+.yellow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    height: 16.6vh;
+    width: 100%;
+    color: green;
+}
+
+.green {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    height: 16.6vh;
+    width: 100%;
+    color: yellow;
+}
+
+.chasiki {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: blue;
+    font-weight: bold;
+    height: 16.6vh;
+    width: 100%;
+    color: orange;
+}
+
+.purple {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    height: 17vh;
+    width: 100%;
+    color: red;
+    text-decoration: none;
+}
